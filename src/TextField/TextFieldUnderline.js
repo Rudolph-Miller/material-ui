@@ -78,7 +78,7 @@ const TextFieldUnderline = (props) => {
       borderTop: 'none',
       borderLeft: 'none',
       borderRight: 'none',
-      borderBottom: 'solid 1px',
+      borderBottom: 'solid 1px ' + borderColor,
       borderColor: borderColor,
       bottom: 8,
       boxSizing: 'content-box',
